@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "spring-boot-angular"
+    }
+  },
+  "defaultProject": "spring-boot-angular",
+  "cli": {
+    "analytics": false
+  }
 }

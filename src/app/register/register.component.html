@@ -1,0 +1,11 @@
+<h2 style="text-align: center;">Register</h2>
+<form (ngSubmit) = "register()" enctype="multipart/form-data">
+    <b>Name</b><input type="text" placeholder="Enter Name" [(ngModel)]=customer.name name="name"><br/>
+    <b>Email Address</b><input type="email" placeholder="Enter Email Address" [(ngModel)]=customer.email name="email"><br/>
+    <b>Password</b><input type="password" placeholder="Enter Password" [(ngModel)]=customer.password name="password"><br/>
+    
+    <b>Date of Birth</b><input type="date" placeholder="Enter date of birth" [(ngModel)]=customer.dob name="dob">
+    <br />  
+    <b>Profile pic</b> <input type="file" name="file" [(ngModel)]=customer.profilePic/><br />
+    <button type="submit">Register</button>
+  </form>
